@@ -23,7 +23,7 @@ namespace GradeManagementDemo
         /// <summary>
         /// 传入所有数据，然后将该数组进行排序，排序后仍放入该数组中
         /// </summary>
-        void Sort(int[] allGrade);
+        int[] Sort(int[] allGrade);
     }//end IScoreOperation
 
 }//end namespace GradeManagementDemo

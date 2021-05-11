@@ -28,10 +28,10 @@ namespace GradeManagementDemo
             return result;
         }
 
-        public void Sort(int[] allGrade)
+        public int[] Sort(int[] allGrade)
         {
             //该方法将传入的数组进行排序
-            quickSort.QuickSort(allGrade);
+            return quickSort.QuickSort(allGrade);
         }
 
     }//end Adapter
