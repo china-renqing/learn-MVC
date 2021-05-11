@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31205.134
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoadBalanceDemo", "LoadBalanceDemo\LoadBalanceDemo.csproj", "{2D706AE9-DBC0-451E-B30A-56974BAA806A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2D706AE9-DBC0-451E-B30A-56974BAA806A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D706AE9-DBC0-451E-B30A-56974BAA806A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D706AE9-DBC0-451E-B30A-56974BAA806A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D706AE9-DBC0-451E-B30A-56974BAA806A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A937A0D3-AF59-49AF-B065-6B5735E20B33}
+	EndGlobalSection
+EndGlobal
