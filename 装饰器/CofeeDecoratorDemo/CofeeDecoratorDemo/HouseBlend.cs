@@ -25,6 +25,7 @@ namespace CofeeDecoratorDemo
         /// <returns>返回价格</returns>
         public override float Cacl(int number)
         {
+            Console.WriteLine("您点了{0}杯混合咖啡！", number);
             return number * this.Price;
         }
 

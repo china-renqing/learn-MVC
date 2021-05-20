@@ -23,6 +23,7 @@ namespace CofeeDecoratorDemo
         /// <returns>返回价格</returns>
         public override float Cacl(int number)
         {
+            Console.WriteLine("您点了{0}杯重烘培咖啡！", number);
             return base.Price * number;
         }
 

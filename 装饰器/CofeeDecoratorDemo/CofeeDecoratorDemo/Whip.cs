@@ -31,8 +31,11 @@ namespace CofeeDecoratorDemo
         /// <returns>返回价格</returns>
         public override float Cacl(int number)
         {
+
             //return (this.Price + base.Price) * number;
-            return base.Cacl(number) + this.Price * number;
+            float allMoney = base.Cacl(number) + this.Price * number;
+            Console.WriteLine("添加了奶泡！");
+            return allMoney;
         }
 
     }//end Whip

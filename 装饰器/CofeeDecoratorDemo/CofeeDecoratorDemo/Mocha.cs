@@ -32,7 +32,9 @@ namespace CofeeDecoratorDemo
         {
 
             //return (this.Price + base.Price) * number;
-            return base.Cacl(number) + this.Price;
+            float allMoney = base.Cacl(number) + this.Price * number;
+            Console.WriteLine("添加了摩卡!");
+            return allMoney;
         }
         /// <summary>
         /// 设置或获取牛奶的价格

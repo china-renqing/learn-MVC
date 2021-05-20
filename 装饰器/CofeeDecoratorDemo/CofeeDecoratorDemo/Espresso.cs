@@ -5,21 +5,23 @@
 //  Created on:      18-5月-2021 9:51:33
 //  Original author: Ren
 ///////////////////////////////////////////////////////////
-
 using System;
 using System.Collections.Generic;
 using System.Text;
 using System.IO;
-
-
-
 using CofeeDecoratorDemo;
 namespace CofeeDecoratorDemo
 {
     public class Espresso : Coffee
     {
+        /// <summary>
+        /// 计算价格
+        /// </summary>
+        /// <param name="number"></param>
+        /// <returns>返回计算后的价格</returns>
         public override float Cacl(int number)
         {
+            Console.WriteLine("您点了{0}杯浓咖啡！", number);
             return number * this.Price;
         }
 
